@@ -27,7 +27,6 @@ pipeline {
 
             }
         }
-
         stage('Build') {
             steps {
                 
@@ -54,7 +53,7 @@ pipeline {
             steps {
                 sh '''
                 mvn clean verify sonar:sonar \
-                    -Dsonar.projectKey=online-MohammedEid-B2D2 \
+                    -Dsonar.projectKey=online-FATIMA-ALSARRAR-B2D2  \
                     -Dsonar.host.url=http://$SONAR_IP \
                     -Dsonar.login=$SONAR_TOKEN
                 '''
