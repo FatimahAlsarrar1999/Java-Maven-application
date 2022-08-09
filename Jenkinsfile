@@ -8,9 +8,9 @@ pipeline {
 
         AWS_S3_BUCKET = "fatima-belt2d2-artifacts-123456"
         ARTIFACT_NAME = "hello-world.jar"
-        AWS_EB_APP_NAME = "java-maven-app"
+        AWS_EB_APP_NAME = "fatimaalsarar-1234"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
-        AWS_EB_ENVIRONMENT = "Javamavenapp-env"
+        AWS_EB_ENVIRONMENT = "Fatimaalsarar1234-env"
 
         SONAR_IP = "52.23.193.18"
         SONAR_TOKEN = "sqp_7fecc73f7debf42399fc50a2791f4638c5a8782c"
